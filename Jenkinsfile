@@ -1,5 +1,5 @@
 node {
-   stage('Preparation') { 
+   stage('Prep stage') { 
         echo " Welcome to Preparation, yes.. its working. "
    }
    stage('Build') {
