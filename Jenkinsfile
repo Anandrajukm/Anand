@@ -4,6 +4,7 @@ node {
    }
    stage('Build') {
         echo " Welcome to Build, yes.. its working. "
+         sleep time: 1, unit: 'MINUTES'
       
    }
    stage('Results') {
