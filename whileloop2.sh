@@ -1,11 +1,12 @@
 #!/bin/sh
 
-a=0
+a="Yes"
 
-while [ $a -lt 11 ]
+while [ $a = "Yes" ]
 do
-   echo $a	
-   a=`expr $a + 1`
+   echo " Do you want to continue ..[Yes / No] "
+   read a 
+   echo $a 
 done
 
 echo " Complete ... "
